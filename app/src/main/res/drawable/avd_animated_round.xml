@@ -1,0 +1,16 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/av_round" >
+
+    <target
+        android:name="circle_1"
+        android:animation="@animator/trace" />
+
+    <target
+        android:name="circle_2"
+        android:animation="@animator/trace" />
+
+    <target
+        android:name="circle_3"
+        android:animation="@animator/trace" />
+</animated-vector>
