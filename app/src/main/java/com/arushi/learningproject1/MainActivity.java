@@ -1,6 +1,6 @@
 package com.arushi.learningproject1;
 
-//import android.graphics.drawable.AnimatedVectorDrawable;
+import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Looper;
@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-//        /* Loader - Circle */
-//        ImageView pbRound = findViewById(R.id.pb_round);
-//        ((AnimatedVectorDrawable) pbRound.getBackground()).start();
+        /* Loader - Circle */
+        ImageView pbRound = findViewById(R.id.pb_round);
+        ((AnimatedVectorDrawable) pbRound.getBackground()).start();
     }
 
 

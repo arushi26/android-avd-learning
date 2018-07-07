@@ -17,14 +17,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--<ImageView-->
-        <!--android:id="@+id/pb_round"-->
-        <!--android:layout_width="90dp"-->
-        <!--android:layout_height="90dp"-->
-        <!--android:background="@drawable/avd_animated_round"-->
-        <!--android:contentDescription="@string/desc_round_loader"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintLeft_toLeftOf="parent"-->
-        <!--app:layout_constraintRight_toRightOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="@id/pb" />-->
+    <ImageView
+        android:id="@+id/pb_round"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/avd_animated_round"
+        android:contentDescription="@string/desc_round_loader"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/pb" />
 </android.support.constraint.ConstraintLayout>
